@@ -1,12 +1,14 @@
 # Next.js + Redux Toolkit Scaffold
 
-This repository contains a minimal Next.js starter configured with TypeScript, Redux Toolkit, and RTK Query.
+This repository contains a minimal Next.js starter configured with TypeScript, Redux Toolkit, RTK Query, and Storybook-powered UI components built with MUI.
 
 ## Getting Started
 
 ```bash
 npm install
 npm run dev
+# Run Storybook locally
+npm run storybook
 ```
 
 ## Features
@@ -15,7 +17,8 @@ npm run dev
 - Strict TypeScript configuration
 - Redux Toolkit store with a sample counter slice
 - RTK Query base API with example data fetching
-- Minimal styling with CSS variables and inline styles
+- Storybook 7 with a ready-to-use MUI theme decorator
+- Example UI primitives powered by MUI (button, text input, card)
 
 ## Project Structure
 
